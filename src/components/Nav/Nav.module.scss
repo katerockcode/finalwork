@@ -1,0 +1,25 @@
+.container {
+  background: white ;
+  width: 320px;
+  height: 100%;
+  &_logo{
+    height: 55px;
+    width: 137px;
+    display: block;
+    margin:60px auto;
+  }
+  &_nav{
+    width: 170px;
+    list-style-type: none;
+    padding: 0;
+    margin: 100px auto;
+    &_element{
+      color: black;
+      text-align: left;
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}
+
+
